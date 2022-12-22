@@ -362,7 +362,7 @@ p {
     }
 
     nav ul.slide {
-        right: -200%
+        right: -500%
     }
 
     .homepage {
@@ -386,7 +386,6 @@ p {
     
     .navbar {
         width: 450px;
-        padding: 20px;
 
     }
     
