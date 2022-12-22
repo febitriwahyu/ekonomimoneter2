@@ -418,6 +418,12 @@ p {
         width: 500px;
     }
 
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     .menu-toggle {
         width: 30px;
     }
