@@ -5,6 +5,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- icon bootsrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
         <!-- Bootstrap CSS -->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -16,7 +19,7 @@
 
         <title>ekonomi moneter2</title>
     </head>
-    <body>
+    <body id="home">
 
         <!-- navbar -->
         <nav
@@ -53,7 +56,7 @@
         <div class="container" style="margin-top: 25%;">
             <div class="row-12 d-grid gap-3 col-xs-1 justify-content-center xs">
                 <div class="col bg-primary mx-auto p-2 0" style="width: 100%;">
-                    <h4 class="text-start text-capitalize fs-6" id="home">pertemuan 1</h4>
+                    <h4 class="text-start text-capitalize fs-6">pertemuan 1</h4>
                     <hr color="black">
                     <video src="video/Video1-1.mp4" width="100%" controls="controls"></video>
                     <h5 class="text-start text-capitalize fs-6 p-1 0">1.permintaan uang klasik</h5>
@@ -175,7 +178,7 @@
                     </p>
                 </div>
                 <div class="card mx-auto p-2 0" style="width: 100%;" id="profile">
-                    <img src="gambar/gambar5.jpg" class="card-img-top" alt="...">
+                    <img src="gambar/gambar5.jpg" class="card-img-top" alt="febitriwahyu">
                     <div class="card-body">
                         <h5 class="card-title text-capitalize">profile</h5>
                         <hr color="black">
@@ -201,8 +204,42 @@
                             style="text-decoration: none;">github</a>
                     </div>
                 </div>
+                <!-- komentar -->
+                <div id="komentar" class="bg-white border border-warning p-3 0 border-3">
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="fs-6 text-center pt-1">
+                                kolom komentar
+                            </h2>
+                            <hr color="dark" size="5px">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">nama lengkap</label>
+                                    <input type="text" class="form-control" id="name" aria-describedby="name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="pesan" class="form-label">pesan</label>
+                                    <textarea class="form-control" id="pesan" rows="3"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">kirim</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- akhir komentar -->
             </div>
         </div>
+        <footer class="mt-3" style="height: 20px;">
+            <p class="bg-warning text-center">created by febitriwahyu copyright<i class="bi bi-c-circle"></i>2023</p>
+        </footer>
 
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
