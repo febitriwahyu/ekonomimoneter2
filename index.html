@@ -1,71 +1,93 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ekonomi moneter2</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+
+        <style>
+            nav {
+                z-index: 2;
+                top: 0;
+                right: 0;
+                left: 0;
+            }
+
+            .container {
+                margin-top: 70px;
+            }
+
+            h2 {
+                letter-spacing: 2px;
+            }
+        </style>
+
         <link rel="stylesheet" href="style.css">
+
+        <title>ekonomi moneter2</title>
     </head>
     <body>
-        <nav>
-            <div class="navbar">
-                <h4>ekonomi moneter2</h4>
-            </div>
-            <ul class="slide">
-                <li>
-                    <a href="">home</a>
-                </li>
-                <li>
-                    <a href="">quiz</a>
-                </li>
-                <li>
-                    <a href="">about</a>
-                </li>
-                <li>
-                    <a href="">contact</a>
-                </li>
-            </ul>
 
-            <div class="menu-toggle">
-                <input type="checkbox">
-                <span></span>
-                <span></span>
-                <span></span>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning position-fixed">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
-        <br>
-        <br>
-        <br>
-        <br>
+        <!-- akhir navbar -->
         <div class="container">
-            <div class="main">
-                <div class="pertemuan1">
-                    <h3>pertemuan 1</h3>
-                    <br>
+            <div class="row-12 d-grid gap-3 col-xs-1">
+                <div class="col bg-primary mx-auto p-2 0" style="width: 90%;">
+                    <h4 class="text-start text-capitalize fs-6">pertemuan 1</h4>
+                    <hr color="black">
                     <video src="video/Video1-1.mp4" width="100%" controls="controls"></video>
-                    <br>
-                    <h4>permintaan uang klasik</h4>
-                    <br>
-                    <p>
-                        Teori klasik merupakan teori yang membahas tentang penawaran dan permintaan uang
-                        serta interaksi antara keduannya. Teori ini berfokus pada hubungan antara
-                        penawaran uang dengan jumlah uang yang beredar dengan nilai uang atau tingkat
-                        harga.
+                    <h5 class="text-start text-capitalize fs-6 p-1 0">1.permintaan uang klasik</h5>
+                    <p class="text-start text-capitalize fs-6 lh-1">Teori klasik merupakan teori
+                        yang membahas tentang penawaran dan permintaan uang serta interaksi antara
+                        keduannya. Teori ini berfokus pada hubungan antara penawaran uang dengan jumlah
+                        uang yang beredar dengan nilai uang atau tingkat harga.
                     </p>
                 </div>
-                <br>
-                <br>
-                <br>
-                <div class="pertemuan2">
-                    <h3>pertemuan 2</h3>
-                    <br>
+                <div class="col bg-primary mx-auto p-2 0" style="width: 90%;">
+                    <h4 class="text-start text-capitalize fs-6">pertemuan 2</h4>
+                    <hr color="black">
                     <video src="video/d.mp4" width="100%" controls="controls"></video>
-                    <br>
-                    <br>
-                    <h4>Permintaan Uang (Milton Friedman)</h4>
-                    <br>
-                    <p>
+                    <h5 class="text-start text-capitalize fs-6 p-1 0">2.permintaan uang modern</h5>
+                    <p class="text-start text-capitalize fs-6 lh-1">Permintaan Uang (Milton Friedman) :
+                        <br>
                         a. Total kekayaan yang dimiliki dalam segala bentuk kekayaan (Budget Constraint)
                         <br>
                         b. Harga dan keuntungan dari masing-masing kekayaan
@@ -73,147 +95,126 @@
                         c. Seleran dan preferensi pemilik kekayaan
                     </p>
                 </div>
-                <br>
-                <div class="pertemuan3">
-                    <h3>pertemuan 3</h3>
-                    <br>
+                <div class="col bg-primary mx-auto p-2 0" style="width: 90%;">
+                    <h4 class="text-start text-capitalize fs-6">pertemuan 3</h4>
+                    <hr color="black">
                     <img src="gambar/gambar3.png" width="100%">
-                    <br>
-                    <br>
-                    <h4>teori penawaran uang</h4>
-                    <br>
-                    <p>
-                        Teori penawaran uang tanpa bank : gambaran ketika perekonomian masih menggunakan
-                        emas sebagai alat pembayaran dan belum ada sistem perbankan yang mempengaruhi
-                        penggunaan alat tukar.
-                        <br>
-                        <br>
+                    <h5 class="text-start text-capitalize fs-6 p-1 0">3.penawaran uang</h5>
+                    <p class="text-start text-capitalize fs-6 lh-1">Teori penawaran uang tanpa bank
+                        : gambaran ketika perekonomian masih menggunakan emas sebagai alat pembayaran
+                        dan belum ada sistem perbankan yang mempengaruhi penggunaan alat tukar.<br><br>
                         Teori Penawaran uang modern : Lembaga keuangan (perbankan) merupakan produsen
                         uang sekunder bagi masyarakat. Keduanya berhubungan sangat erat karena uang
                         sekunder (uang giral) hanya bisa tumbuh karena ada uang primer.
                     </p>
                 </div>
-                <br>
-                <div class="pertemuan4">
-                    <h3>pertemuan4</h3>
-                    <br>
-                    <video src="video/video4.mp4" width="100%" controls="controls"></video>
-                    <br>
-                    <br>
-                    <h4>inflasi</h4>
-                    <br>
-                    <p>
+                <div class="col bg-primary mx-auto p-2 0" style="width: 90%;">
+                    <h4 class="text-start text-capitalize fs-6">pertemuan 4</h4>
+                    <hr color="black">
+                    <video src="video/video4.mp4" controls="controls" width="100%"></video>
+                    <h5 class="text-start text-capitalize fs-6 p-1 0">4.inflasi</h5>
+                    <p class="text-start text-capitalize fs-6 lh-1">
                         Inflasi merupakan suatu proses meningkatnya harga-harga secaraumum dan
-                        terus-menerus (kontinu) berkaitan dengan mekanisme pasar yang dapat disebabkan
+                        terus-menerus (kontinu) berkaitan dengan mekanisme pasar yang dapatdisebabkan
                         oleh berbagai faktor, antara lain, konsumsi masyarakat yang
                         meningkat,berlebihnya likuiditas di pasar yang memicu konsumsi atau bahkan
                         spekulasi, sampaitermasuk juga akibat adanya ketidak lancaran distribusi barang.
                     </p>
                 </div>
-                <br>
-                <div class="pertemuan5">
-                    <h3>pertemuan5</h3>
-                    <br>
-                    <video src="video/Video5-1.mp4" width="100%" controls="controls"></video>
-                    <h4>kebijakan moneter dan transmisi kebijakan moneter</h4>
-                    <br>
-                    <p>
-                        Kebijakan moneter merupakan sebuah kebijakan yang dikeluarkan oleh bank sentral
-                        dalam bentuk pengaturan persediaan uang untuk mencapai tujuan tertentu. Yang
-                        bertujuan untuk mencegah terjadinya peningkatan uang beredar secara berlebihan
-                        atau sangat kurang.
+                <div class="col bg-primary mx-auto p-2 0" style="width: 90%;">
+                    <h4 class="text-start text-capitalize fs-6">pertemuan 5</h4>
+                    <hr color="black">
+                    <video src="video/video5-1.mp4" controls="controls" width="100%"></video>
+                    <h5 class="text-start text-capitalize fs-6 p-1 0">5.kebijakan moneter dan transmisi kebijakan moneter</h5>
+                    <p class="text-start text-capitalize fs-6 lh-1">Kebijakan moneter merupakan
+                        sebuah kebijakan yang dikeluarkan oleh bank sentral dalam bentuk pengaturan
+                        persediaan uang untuk mencapai tujuan tertentu. Yang bertujuan untuk mencegah
+                        terjadinya peningkatan uang beredar secara berlebihan atau sangat kurang.
                     </p>
                 </div>
-                <br>
-                <div class="pertemuan6">
-                    <h3>pertemuan6</h3>
-                    <br>
-                    <video src="video/video6.mp4" width="100%" controls="controls"></video>
-                    <h4>nilai tukar uang</h4>
-                    <br>
-                    <p>
-                        Nilai tukar rupiah merupakan nilai dari satu mata rupiah yang ditranslasikan ke
-                        dalam mata uang negara lain. Misalnya nilai tukar rupiah terhadap yen (mata uang
-                        Jepang), atau nilai tukar rupiah terhadap lira (mata uang Turki). Kurs inilah
-                        yang memegang peran penting dalam mencapai stabilitas moneter dan dalam
-                        mendukung kegiatan ekonomi. Nilai tukar yang stabil sangat diperlukan untuk
-                        terciptanya iklim yang kondusif bagi peningkatan kegiatan dunia usaha.
+                <div class="col bg-primary mx-auto p-2 0" style="width: 90%;">
+                    <h4 class="text-start text-capitalize fs-6">pertemuan 6</h4>
+                    <hr color="black">
+                    <video src="video/video6.mp4" controls="controls" width="100%"></video>
+                    <h5 class="text-start text-capitalize fs-6 p-1 0">6.nilai tukar uang</h5>
+                    <p class="text-start text-capitalize fs-6 lh-1">Nilai tukar rupiah merupakan
+                        nilai dari satu mata rupiah yang ditranslasikan ke dalam mata uang negara lain.
+                        Misalnya nilai tukar rupiah terhadap yen (mata uang Jepang), atau nilai tukar
+                        rupiah terhadap lira (mata uang Turki). Kurs inilah yang memegang peran penting
+                        dalam mencapai stabilitas moneter dan dalam mendukung kegiatan ekonomi. Nilai
+                        tukar yang stabil sangat diperlukan untuk terciptanya iklim yang kondusif bagi
+                        peningkatan kegiatan dunia usaha.
                     </p>
                 </div>
-                <br>
-                <div class="pertemuan7">
-                    <h3>pertemuan 7</h3>
-                    <br>
+                <div class="col bg-primary mx-auto p-2 0" style="width: 90%;">
+                    <h4 class="text-start text-capitalize fs-6">pertemuan 7</h4>
+                    <hr color="black">
                     <img src="gambar/gambar7.png" width="100%">
-                    <br>
-                    <br>
-                    <h4>neraca pembayaran</h4>
-                    <br>
-                    <p>
-                        Neraca pembayaran (Balance Of Payment /BOP) merupakan catatan yang dilakukan
-                        secara sistemik atas keseluruhan transaksi ekonomi yang dilakukan oleh suatu
-                        negara dengan negara lain yang berupa perdagangan barang dan jasa, transfer
-                        keuangan, dan moneter antara penduduk Indonesia dengan penduduk luar negeri
-                        selama satu periode tertentu.
+                    <h5 class="text-start text-capitalize fs-6 p-1 0">7.neraca pembayaran</h5>
+                    <p class="text-start text-capitalize fs-6 lh-1">Neraca pembayaran (Balance Of
+                        Payment /BOP) merupakan catatan yang dilakukan secara sistemik atas keseluruhan
+                        transaksi ekonomi yang dilakukan oleh suatu negara dengan negara lain yang
+                        berupa perdagangan barang dan jasa, transfer keuangan, dan moneter antara
+                        penduduk Indonesia dengan penduduk luar negeri selama satu periode tertentu.
                     </p>
                 </div>
-                <br>
-                <div class="pertemuan8">
-                    <h3>pertemuan 8</h3>
-                    <br>
-                    <video src="video/video8.mp4" width="100%" controls="controls"></video>
-                    <br>
-                    <br>
-                    <h4>pasar uang</h4>
-                    <br>
-                    <p>
-                        Pasar uang Merupakan keseluruhan permintaan dan penawaran dana-dana atau
-                        surat-surat berharga yang mempunyai jangka waktu satu tahun atau kurang dari
-                        satu tahun dan dapat disalurkan melalui lembaga-lembaga perbankan. Pasar uang
-                        juga sering disebut pasar kredit jangka pendek yang dimaksud dengan dana jangka
-                        pendek.
+                <div class="col bg-primary mx-auto p-2 0" style="width: 90%;">
+                    <h4 class="text-start text-capitalize fs-6">pertemuan 8</h4>
+                    <hr color="black">
+                    <video src="video/video8.mp4" controls="controls" width="100%"></video>
+                    <h5 class="text-start text-capitalize fs-6 p-1 0">8.pasar uang</h5>
+                    <p class="text-start text-capitalize fs-6 lh-1">Pasar uang Merupakan keseluruhan
+                        permintaan dan penawaran dana-dana atau surat-surat berharga yang mempunyai
+                        jangka waktu satu tahun atau kurang dari satu tahun dan dapat disalurkan melalui
+                        lembaga-lembaga perbankan. Pasar uang juga sering disebut pasar kredit jangka
+                        pendek yang dimaksud dengan dana jangka pendek.
                     </p>
                 </div>
-                <br>
-                <div class="pertemuan9">
-                    <h3>pertemuan 9</h3>
-                    <br>
-                    <video src="video/a.mp4" width="100%" controls="controls"></video>
-                    <br>
-                    <br>
-                    <h4>pasar valas</h4>
-                    <br>
-                    <p>
-                        Suatu mekanisme dimana orang dapat melakukan beberapa tindakan mentransfer daya
-                        beli melewati batas negara yang menggunakan satuan uang yang berbeda.memperoleh
-                        atau menyediakan kredit untuk transaksi perdagangan internasional & meminimumkan
-                        resiko kerugian akibat fluktuasi mata uang disuatu negara.
+                <div class="col bg-primary mx-auto p-2 0" style="width: 90%;">
+                    <h4 class="text-start text-capitalize fs-6">pertemuan 9</h4>
+                    <hr color="black">
+                    <video src="video/a.mp4" controls="controls" width="100%"></video>
+                    <h5 class="text-start text-capitalize fs-6 p-1 0">9.pasar valuta asing</h5>
+                    <p class="text-start text-capitalize fs-6 lh-1">Suatu mekanisme dimana orang
+                        dapat melakukan beberapa tindakan mentransfer daya beli melewati batas negara
+                        yang menggunakan satuan uang yang berbeda.memperoleh atau menyediakan kredit
+                        untuk transaksi perdagangan internasional & meminimumkan resiko kerugian akibat
+                        fluktuasi mata uang disuatu negara.
                     </p>
                 </div>
-                <br>
-                <div class="pertemuan10">
-                    <h3>pertemuan 10</h3>
-                    <br>
-                    <video src="video/video10.mp4" width="100%" controls="controls"></video>
-                    <br>
-                    <br>
-                    <h4>pasar modal</h4>
-                    <br>
-                    <p>
-                        Merupakan tempat atau sistem dalam memenuhi kebutuhan dana untuk modal yang
-                        dibutuhkan perusahaan, serta merupakan pasar tempat orang membeli dan menjual.
+                <div class="col bg-primary mx-auto p-2 0" style="width: 90%;">
+                    <h4 class="text-start text-capitalize fs-6">pertemuan 10</h4>
+                    <hr color="black">
+                    <video src="video/video10.mp4" controls="controls" width="100%"></video>
+                    <h5 class="text-start text-capitalize fs-6 p-1 0">10.pasar modal</h5>
+                    <p class="text-start text-capitalize fs-6 lh-1">Merupakan tempat atau sistem
+                        dalam memenuhi kebutuhan dana untuk modal yang dibutuhkan perusahaan, serta
+                        merupakan pasar tempat orang membeli dan menjual.
                     </p>
+                </div>
+                <div class="card mx-auto p-2 0" style="width: 90%;">
+                    <img src="gambar/gambar5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make
+                            up the bulk of the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
                 </div>
             </div>
-            <div class="sidebar">
-                <h3>artikle lainya</h3>
-                <hr color="black">
-                <br>
-                <hr color="black">
-                <a href="file/materi.docx">materi lengkap</a>
-            </div>
-            <div class="footer"></div>
         </div>
-        <script src="script.js"></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
     </body>
 </html>
